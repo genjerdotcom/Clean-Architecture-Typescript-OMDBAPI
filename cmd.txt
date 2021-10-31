@@ -1,0 +1,11 @@
+SEQUELIZE
+
+====== First config Folder and index model =======
+
+./node_modules/.bin/sequelize-cli init 
+
+====== Generate Model & Migration =======
+./node_modules/.bin/sequelize-cli model:generate --name activity --attributes useragent:json,status_code:number,created_at:date --underscored
+
+====== Do Migrate =======
+./node_modules/.bin/sequelize-cli db:migrate

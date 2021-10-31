@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "183fc9ce-cd25-4120-96f7-0956c541c51e",
+		"name": "OMDBAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET - SEARCH",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/v1/movies/search?keyword=fight club",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"movies",
+						"search"
+					],
+					"query": [
+						{
+							"key": "keyword",
+							"value": "fight club"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - DETAIL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/v1/movies/detail/8i",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"movies",
+						"detail",
+						"8i"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
