@@ -15,7 +15,7 @@ GET Search And Detail Movies data from [omdbapi](http://www.omdbapi.com)
 
 ![clean architecture](clean_architecture.png)
 
-### Architecture Explaination folder
+### Architecture & folder Explaination
 
 In this project, I have 4 layers
 
